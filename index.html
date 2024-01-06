@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,19 +8,20 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>Randon</title>
 </head>
+
 <body>
-    <img src="./assets/Dev-Sorteio.png">
+    <main>
+        <h1>Random number between:</h1>
+        <input placeholder="Number 1" class="input-min" type="number">
+        <input placeholder="Number 2" class="input-max" type="number">
+        <p></p>
+        <button onclick="generateNumber()">Start</button>
+    </main>
 
-    <h2>Sortear um número entre:</h2>
-    <div>
-        <input placeholder="entrer" class="input-min" type="number">
-        <input placeholder="e" class="input-max" type="number">
-    </div>
-
-    <button onclick="generateNumber()">Sortear</button>
 
 </body>
 <script src="./script.js"></script>
+
 </html>
