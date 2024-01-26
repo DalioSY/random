@@ -52,6 +52,7 @@ input {
     opacity: 0.7;
     text-align: center;
     width: 40vh;
+    border: none;
 }
 
 button {
@@ -63,6 +64,7 @@ button {
     border: none;
     cursor: pointer;
     width: 40vh
+
 }
 
 button:hover {
